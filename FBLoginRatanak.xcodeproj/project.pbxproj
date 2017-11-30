@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E04281A272BF0A783BC125B /* Pods_FBLoginRatanak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B8710C7351682942D92434 /* Pods_FBLoginRatanak.framework */; };
+		FEEEB99A1FCE3D6E00FDA54A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEEB9991FCE3D6E00FDA54A /* AppDelegate.swift */; };
+		FEEEB99C1FCE3D6E00FDA54A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEEB99B1FCE3D6E00FDA54A /* ViewController.swift */; };
+		FEEEB99F1FCE3D6E00FDA54A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEEB99D1FCE3D6E00FDA54A /* Main.storyboard */; };
+		FEEEB9A11FCE3D6E00FDA54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEEEB9A01FCE3D6E00FDA54A /* Assets.xcassets */; };
+		FEEEB9A41FCE3D6E00FDA54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEEB9A21FCE3D6E00FDA54A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45B8710C7351682942D92434 /* Pods_FBLoginRatanak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBLoginRatanak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11D8A80AFA5168CB48FFBF6 /* Pods-FBLoginRatanak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLoginRatanak.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBLoginRatanak/Pods-FBLoginRatanak.release.xcconfig"; sourceTree = "<group>"; };
+		C36F16821240EF70522C3749 /* Pods-FBLoginRatanak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLoginRatanak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBLoginRatanak/Pods-FBLoginRatanak.debug.xcconfig"; sourceTree = "<group>"; };
+		FEEEB9961FCE3D6E00FDA54A /* FBLoginRatanak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBLoginRatanak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEEB9991FCE3D6E00FDA54A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEEEB99B1FCE3D6E00FDA54A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEEEB99E1FCE3D6E00FDA54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEEEB9A01FCE3D6E00FDA54A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEEEB9A31FCE3D6E00FDA54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEEEB9A51FCE3D6E00FDA54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEEEB9931FCE3D6E00FDA54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E04281A272BF0A783BC125B /* Pods_FBLoginRatanak.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EB1F6973502CE65C1B3038E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45B8710C7351682942D92434 /* Pods_FBLoginRatanak.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE90129303FF088F8AB09F0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C36F16821240EF70522C3749 /* Pods-FBLoginRatanak.debug.xcconfig */,
+				B11D8A80AFA5168CB48FFBF6 /* Pods-FBLoginRatanak.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEEEB98D1FCE3D6E00FDA54A = {
+			isa = PBXGroup;
+			children = (
+				FEEEB9981FCE3D6E00FDA54A /* FBLoginRatanak */,
+				FEEEB9971FCE3D6E00FDA54A /* Products */,
+				DE90129303FF088F8AB09F0E /* Pods */,
+				9EB1F6973502CE65C1B3038E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEEEB9971FCE3D6E00FDA54A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEEEB9961FCE3D6E00FDA54A /* FBLoginRatanak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEEEB9981FCE3D6E00FDA54A /* FBLoginRatanak */ = {
+			isa = PBXGroup;
+			children = (
+				FEEEB9991FCE3D6E00FDA54A /* AppDelegate.swift */,
+				FEEEB99B1FCE3D6E00FDA54A /* ViewController.swift */,
+				FEEEB99D1FCE3D6E00FDA54A /* Main.storyboard */,
+				FEEEB9A01FCE3D6E00FDA54A /* Assets.xcassets */,
+				FEEEB9A21FCE3D6E00FDA54A /* LaunchScreen.storyboard */,
+				FEEEB9A51FCE3D6E00FDA54A /* Info.plist */,
+			);
+			path = FBLoginRatanak;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEEEB9951FCE3D6E00FDA54A /* FBLoginRatanak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEEEB9A81FCE3D6E00FDA54A /* Build configuration list for PBXNativeTarget "FBLoginRatanak" */;
+			buildPhases = (
+				111FAF366AD6334CD1946208 /* [CP] Check Pods Manifest.lock */,
+				FEEEB9921FCE3D6E00FDA54A /* Sources */,
+				FEEEB9931FCE3D6E00FDA54A /* Frameworks */,
+				FEEEB9941FCE3D6E00FDA54A /* Resources */,
+				0EEA57654DA09291902E09A4 /* [CP] Embed Pods Frameworks */,
+				2AD23D963DDBB3DA34EF1058 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBLoginRatanak;
+			productName = FBLoginRatanak;
+			productReference = FEEEB9961FCE3D6E00FDA54A /* FBLoginRatanak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEEEB98E1FCE3D6E00FDA54A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					FEEEB9951FCE3D6E00FDA54A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FEEEB9911FCE3D6E00FDA54A /* Build configuration list for PBXProject "FBLoginRatanak" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEEEB98D1FCE3D6E00FDA54A;
+			productRefGroup = FEEEB9971FCE3D6E00FDA54A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEEEB9951FCE3D6E00FDA54A /* FBLoginRatanak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEEEB9941FCE3D6E00FDA54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEEB9A41FCE3D6E00FDA54A /* LaunchScreen.storyboard in Resources */,
+				FEEEB9A11FCE3D6E00FDA54A /* Assets.xcassets in Resources */,
+				FEEEB99F1FCE3D6E00FDA54A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EEA57654DA09291902E09A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FBLoginRatanak/Pods-FBLoginRatanak-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBLoginRatanak/Pods-FBLoginRatanak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		111FAF366AD6334CD1946208 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBLoginRatanak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AD23D963DDBB3DA34EF1058 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBLoginRatanak/Pods-FBLoginRatanak-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEEEB9921FCE3D6E00FDA54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEEB99C1FCE3D6E00FDA54A /* ViewController.swift in Sources */,
+				FEEEB99A1FCE3D6E00FDA54A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEEEB99D1FCE3D6E00FDA54A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEEEB99E1FCE3D6E00FDA54A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEEEB9A21FCE3D6E00FDA54A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEEEB9A31FCE3D6E00FDA54A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEEEB9A61FCE3D6E00FDA54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEEEB9A71FCE3D6E00FDA54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEEEB9A91FCE3D6E00FDA54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36F16821240EF70522C3749 /* Pods-FBLoginRatanak.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47DM57779M;
+				INFOPLIST_FILE = FBLoginRatanak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrd.FBLoginRatanak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEEEB9AA1FCE3D6E00FDA54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11D8A80AFA5168CB48FFBF6 /* Pods-FBLoginRatanak.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47DM57779M;
+				INFOPLIST_FILE = FBLoginRatanak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrd.FBLoginRatanak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEEEB9911FCE3D6E00FDA54A /* Build configuration list for PBXProject "FBLoginRatanak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEEB9A61FCE3D6E00FDA54A /* Debug */,
+				FEEEB9A71FCE3D6E00FDA54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEEEB9A81FCE3D6E00FDA54A /* Build configuration list for PBXNativeTarget "FBLoginRatanak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEEB9A91FCE3D6E00FDA54A /* Debug */,
+				FEEEB9AA1FCE3D6E00FDA54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEEEB98E1FCE3D6E00FDA54A /* Project object */;
+}
